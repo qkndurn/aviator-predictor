@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator Predictor</title>
+    
+    <!-- Link to Favicon -->
+    <link rel="icon" href="favicon.jpeg" type="image/jpeg">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Aviator Game Predictor</h1>
+        
+        <!-- Password Input Form -->
+        <div id="password-container">
+            <input type="password" id="passcode" placeholder="Enter passcode" />
+            <button id="submit-passcode">Submit</button>
+            <p id="password-message">To get the passcode, <a href="https://api.whatsapp.com/send?phone=254792172027&text=" target="_blank">contact me on WhatsApp</a>.</p>
+        </div>
+
+        <!-- Prediction Container (Hidden until passcode is correct) -->
+        <div id="prediction-container" style="display: none;">
+            <button id="predict-btn">Predict Next Round</button>
+            <div id="prediction-result">Prediction will appear here.</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

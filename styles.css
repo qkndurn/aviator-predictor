@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#app {
+    padding: 20px;
+    background-color: #34495e; /* Darker container background */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2ecc71; /* Green title text */
+    font-size: 2.5em;
+}
+
+#password-container {
+    margin-top: 30px;
+}
+
+#passcode {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #2ecc71;
+    margin-right: 10px;
+}
+
+#submit-passcode {
+    padding: 12px 25px;
+    background-color: #27ae60; /* Green button */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-passcode:hover {
+    background-color: #2ecc71; /* Lighter green on hover */
+}
+
+#password-message {
+    margin-top: 20px;
+    color: #f39c12;
+}
+
+#password-message a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+#password-message a:hover {
+    text-decoration: underline;
+}
+
+#prediction-container {
+    margin-top: 30px;
+}
+
+#predict-btn {
+    padding: 12px 25px;
+    background-color: #27ae60; /* Green button */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#predict-btn:hover {
+    background-color: #2ecc71; /* Lighter green on hover */
+}
+
+#prediction-result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1abc9c; /* Light green result text */
+}
+
